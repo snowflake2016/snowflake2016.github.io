@@ -1,0 +1,411 @@
+/*所有標籤的共同設定*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Navigation*/
+
+nav {
+    overflow: auto;
+    background-color: #f7f3f3;
+    widows: 100%;
+    height: 50px;
+}
+
+nav img {
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+
+nav ul {
+    position: relative;
+    margin-left: 580px;
+    top: 1px;
+}
+
+nav li {
+    padding: 15px;
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #838383;
+}
+
+
+/*All Buttons*/
+
+#button2 {
+    background-color: #705dd8;
+    border: 2px solid #705dd8;
+}
+
+[id*=button] {
+    position: relative;
+    float: none;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    height: 43px;
+    border: 2px solid #fff;
+    margin: 4px;
+    font-size: 11px;
+    color: #fff4f4;
+    line-height: 40px;
+}
+
+
+/*First Page*/
+
+#page1 {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/photo-1443527216320-7e744084f5a7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+#page1 section {
+    position: relative;
+    top: 270px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff4f4;
+}
+
+p {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff4f4;
+}
+
+.buttonbox {
+    position: relative;
+    top: 290px;
+    left: 480px;
+}
+
+
+/*Second Page*/
+
+#page2 {
+    width: 100%;
+    height: 400px;
+}
+
+#page2 section {
+    position: relative;
+    float: none;
+    margin: auto;
+    top: 25px;
+    width: 900px;
+    height: 500px;
+}
+
+#page2 section img {
+    float: left;
+    text-align: right;
+    width: 500px;
+}
+
+.info1 {
+    position: relative;
+    padding-top: 65px;
+    padding-left: 25px;
+    float: left;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.info1 p {
+    margin-top: 10px;
+    line-height: 1;
+    text-align: left;
+    color: #838383;
+}
+
+h2 {
+    color: #838383;
+}
+
+.info1 #button2 {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+/*Third Page*/
+
+#page3 {
+    width: 100%;
+    height: 400px;
+    background-color: #efefef;
+}
+
+#page3 section {
+    position: relative;
+    float: none;
+    margin: auto;
+    top: 25px;
+    width: 900px;
+    height: 500px;
+}
+
+#page3 section img {
+    float: right;
+    text-align: left;
+    width: 500px;
+}
+
+.info2 {
+    position: relative;
+    padding-top: 65px;
+    padding-left: 150px;
+    float: left;
+    text-align: left;
+    width: 350px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.info2 p {
+    line-height: 1;
+    margin-top: 10px;
+    text-align: left;
+    color: #838383;
+}
+
+.info2 #button2 {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+
+/*Fourth Page*/
+
+#page4 {
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/photo-1452723312111-3a7d0db0e024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 80%;
+}
+
+#page4-2 {
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/photo-1452723312111-3a7d0db0e024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+}
+
+#page4 .info3 h1 {
+    padding-top: 14px;
+    color: #fff4f4;
+}
+
+#page4 .info3 p {
+    color: #fff4f4;
+}
+
+#page4-2 .info3 #button2 {
+    margin-left: 590px;
+    margin-top: 10px;
+    width: 12%;
+}
+
+
+/*Fifth Page*/
+
+#page5 {
+    width: 100%;
+    height: 823px;
+    margin-top: 60px;
+}
+
+#page5 .info2 {
+    position: relative;
+    top: -680px;
+    left: 450px;
+}
+
+#page5 .info2 h1 {
+    width: 400px;
+    margin-left: -130px;
+    color: #838383;
+}
+
+#page5 .info2 p {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-left: -180px;
+    margin-top: 20px;
+    color: #838383;
+}
+
+#page5 img {
+    position: relative;
+    float: none;
+    display: block;
+    top: 196px;
+    margin: 0 auto;
+    width: 880px;
+}
+
+
+/*Sixth Page*/
+
+#page6 {
+    width: 100%;
+    height: 914px;
+    background-color: #171717;
+}
+
+#page6 div {
+    width: 1400px;
+    height: 900px;
+    float: left;
+    margin: auto;
+}
+
+#page6 h2 {
+    position: absolute;
+    text-align: center;
+    float: left;
+    padding-top: 40px;
+    padding-left: 580px;
+    color: white;
+}
+
+#page6 p {
+    position: relative;
+    text-align: center;
+    float: left;
+    padding-top: 70px;
+    padding-left: 215px;
+    color: white;
+}
+
+#page6 img {
+    display: block;
+    float: left;
+    width: 24.1%;
+    height: 270px;
+}
+
+
+/*Seventh Page*/
+
+#page7 {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/photo-1452723312111-3a7d0db0e024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+}
+
+#page7 h1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 450px;
+    padding-bottom: 15px;
+    height: 10px;
+}
+
+#page7 img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+
+/*Eighth Page*/
+
+#page8 {
+    width: 100%;
+    height: 200px;
+}
+
+#page8 h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #787878;
+}
+
+#page8 #images {
+    float: none;
+    margin: auto;
+    width: 1400px;
+    height: 100px;
+}
+
+#page8 img {
+    height: 100px;
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 10%;
+    height: 30%;
+}
+
+
+/*Ninth Page*/
+
+#page9 {
+    width: 100%;
+    height: 180px;
+    background-color: #c9c9c9;
+}
+
+#page9 .info3 {
+    float: none;
+    position: relative;
+    top: 30px;
+    width: 500px;
+    margin-left: 400px;
+}
+
+#page9 .info3 #button2 {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    float: right;
+}
+
+#page9 .info3 p {
+    position: relative;
+    text-align: left;
+    float: left;
+    padding-left: 620px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    width: 1200px;
+    height: 40px;
+    top: 8px;
+    float: right;
+}

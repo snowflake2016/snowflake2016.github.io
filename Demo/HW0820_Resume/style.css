@@ -1,0 +1,63 @@
+/*Background*/
+
+body {
+    background-color: #A5DEE4;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*Title*/
+
+h1 {
+    color: #FCFAF2;
+    text-transform: uppercase;
+}
+
+
+/*Bullet point*/
+
+li {
+    color: #DB4D6D;
+}
+
+
+/*State*/
+
+summary {
+    color: #FFB11B;
+    text-align: center;
+}
+
+
+/*Name*/
+
+header {
+    text-align: center;
+    color: #FCFAF2;
+    font-size: 40px;
+}
+
+
+/*Contact*/
+
+address {
+    text-align: center;
+    color: #787D7B;
+}
+
+
+/*Selfie*/
+
+img {
+    float: right;
+}
+
+
+/*Content Margin*/
+
+div {
+    margin-top: 100px;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,41 @@
+/*所有標籤的共同設定*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*基本的標籤 margin padding reset*/
+
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+header,
+body,
+nav,
+footer,
+aside,
+section,
+article {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+/*Original Pictures*/
+
+.img {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}

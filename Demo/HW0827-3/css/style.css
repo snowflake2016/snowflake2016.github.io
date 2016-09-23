@@ -1,0 +1,299 @@
+/*Default*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation */
+
+nav {
+    widows: 100%;
+    height: 50px;   
+    overflow: auto;
+    background-color: #565656;
+}
+
+nav .img {   
+    position: relative;
+    left: 50px;
+    font-size: 40px;
+    float: left;
+    color: white;
+}
+
+nav section {
+    color: white;
+    position: relative;
+    left: -30px;
+    top: 7px;
+}
+
+nav section li {
+    font-size: 15px;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 5px;
+    line-height: 30px;
+    float: left;
+    margin-left: 1000px;
+}
+
+
+#page1 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/slider-image-blurry.jpg")
+}
+
+#page1 .info1 {
+    float: none;
+    margin: auto;
+    width: 850px;
+}
+
+#page1 .info1 h2 {
+    position: relative;
+    text-align: left;
+    top: 300px;
+    width: 600px;
+    padding: 5px;
+    color: white;
+    float: none;
+    background-color: #ff5f5f;
+}
+
+#page1 .info1 p {
+    position: relative;
+    top: 300px;
+    padding: 10px;
+    width: 700px;
+    height: 100px;
+    background-color: #3b3b3b;
+}
+
+#page2 {
+    height: 90px;
+}
+
+#page2 .info2 {
+    float: none;
+    margin: auto;
+    position: relative;
+    width: 900px;
+    height: 50px;
+    top: 25px;
+}
+
+#page2 .info2 p {
+    padding: 10px;
+    color: #ff4545;
+}
+
+#page2 .info2 .button {
+    float: right;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    top: -30px;
+    left: -120px;
+    width: 180px;
+    height: 30px;
+    border: 2px solid #ff4545;
+    color: #ff4545;
+    background-color: white;
+}
+
+#page3 {
+    width: 100%;
+    height: 2500px;
+    background-color: #d8d8d8;
+    overflow: auto;
+}
+
+#page3 .sidebar {
+    margin: 30px auto;
+    float: none;
+    width: 900px;
+    height: 1800px;
+}
+
+#page3 .left {
+    float: left;
+    width: 615px;
+    height: 1000px;
+}
+
+#page3 .right {
+    float: left;
+    width: 255px;
+    height: 1500px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+#page3 .button {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 110px;
+    height: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ff5454;
+    right: 10px;
+    color: white;
+}
+
+[class*=col] {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: white;
+    float: none;
+}
+
+[class*=col] img {
+    width: 100%;
+}
+
+[class*=col] p,h1,h2 
+{
+    padding: 0px 20px;
+    float: none;
+    text-align: left;
+}
+
+[class*=col] h2 {
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+[class*=col] p {
+    font-size: 15px;
+    line-height: 1;
+    padding-top: 10px;
+    color: black;
+}
+
+/*Right Column*/
+.right h2 {
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.right .post1 p {
+    color: #ff5454;
+    width: 165px;
+}
+
+.right .post1 img {
+    padding-left: 10px;
+}
+
+.right img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 5x;
+    padding: 5px;
+}
+
+.right P {
+    width: auto;
+    color: black;
+    line-height: 1;
+    padding-left: 20px;
+}
+
+.post1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.post1 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: block;
+}
+
+.post1 p {
+    width: 225px;
+    padding-left: 15px;
+    float: left;
+    line-height: 1;
+}
+
+.post1 .white {
+    width: 100%;
+    height: 30px;
+}
+
+/*Footer*/
+
+#page4 {
+    width: 100%;
+    height: 300px;
+    background-color: #5e5e5e;
+}
+
+#page4 section {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    float: none;
+    width: 900px;
+    height: 240px;
+}
+
+#page4 .bar {
+    float: left;
+    width: 315px;
+}
+
+#page4 .link {
+    width: 100%;
+    height: 200px;
+}
+
+
+.category li {
+    text-align: left;
+    color: white;
+}
+
+.category {
+    float: left;
+    width: 315px;
+}
+
+.note {
+    float: left;
+    width: 250px;
+    color: white;
+}
+
+.note h1 
+{
+    text-align: left;
+    padding-left: 0px;
+}
+
+.note h1,p 
+{
+    color: white;
+}
+
+/*Bottom of page*/
+
+#bottom {
+    width: 100%;
+    height: 80px;
+    background-color: #242424;
+}

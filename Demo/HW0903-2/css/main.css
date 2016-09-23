@@ -1,0 +1,210 @@
+body,
+h1,
+h2,
+p,
+div,
+header,
+nav,
+footer,
+aside,
+section,
+article,
+ul,
+a,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #363232;
+}
+
+nav .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.sparkling {
+    font-size: 15px;
+    float: left;
+    line-height: 80px;
+}
+
+nav .item {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    left: 100px;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 80px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #e55f5f;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../img/slider-image-blurry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+}
+
+header .container {
+    margin: 0 auto;
+    padding: 100px 50px
+}
+
+header .container h1 {
+    font-size: 25px;
+    width: 30%;
+    padding: 30px;
+    color: white;
+    background-color: #eb4e4e;
+}
+
+header .container p {
+    font-size: 15px;
+    width: 50%;
+    color: white;
+    background-color: #363232;
+    font-family: sans-serif;
+}
+
+section {
+    margin: 0 auto;
+    width: auto;
+}
+
+section h1 {
+    margin: 0 auto;
+    font-size: 18px;
+    color: #eb4e4e;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section a {
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+    color: #ea4c4c;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid #ea4c4c;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+section a:hover {
+    color: white;
+    background-color: #eb4e4e;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+}
+
+.section-container {
+    padding: 80px 150px;
+}
+
+
+/*Post*/
+
+.tumbnail {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #b2b2b2;
+    overflow: auto;
+}
+
+.tumbnail img {
+    width: 100%;
+}
+
+.post {
+    margin: 50px;
+    width: 80%;
+}
+
+.tumbnail h1 {
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 40px;
+    color: grey;
+}
+
+.post a {
+    color: #525252;
+}
+
+.tumbnail p {
+    font-size: 15px;
+    margin: 20px;
+    color: #b7b1b1;
+}
+
+.button-readMore {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #eb4e4e;
+    float: right;
+    margin: 20px;
+}
+
+.tumbnail a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: black;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: grey;
+}

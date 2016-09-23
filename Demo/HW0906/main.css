@@ -1,0 +1,10 @@
+.containter {
+    width: 0 auto;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    /*不允許兩邊的 float*/
+}

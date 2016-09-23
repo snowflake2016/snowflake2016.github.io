@@ -1,0 +1,130 @@
+/*所有標籤*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*margin padding reset*/
+
+body,
+h1,
+h2,
+p,
+div,
+header,
+nav,
+footer,
+aside,
+section,
+article,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+
+.header {
+    height: 40px;
+    line-height: 40px;
+}
+
+.container-fluid {
+    background-color: #f06eaf;
+    color: whitesmoke;
+    height: 40px;
+}
+
+.navbar {
+    float: left;
+    padding-left: 20px;
+}
+
+.navbar-item li {
+    padding-right: 35px;
+}
+
+ul {
+    margin: 0;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+li {
+    line-height: 40px;
+    font-size: 14px;
+    float: right;
+    list-style-type: none;
+}
+
+
+/*Main Page*/
+
+.jumbotron {
+    padding: 0px;
+    margin: 0 auto;
+    padding-top: 130px;
+    background-image: url(https://unsplash.it/g/1000/400?random);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    color: #f06eaf;
+}
+
+.jumbotron p {
+    color: whitesmoke;
+}
+
+.btn-lg {
+    color: whitesmoke;
+    background: #f06eaf;
+}
+
+
+/*Block*/
+
+[class^="col-"] {
+    /*    border: 1px solid #000;*/
+}
+
+
+/*Directory*/
+
+.col-md-3 {
+    padding: 40px;
+}
+
+.introduction {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 20px;
+}
+
+.thumbnail {
+    background-color: #dddddd;
+    text-align: center;
+    border: 0 none;
+    box-shadow: none;
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+h3 {
+    font-size: 10px;
+    font-weight: bold;
+}
